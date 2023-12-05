@@ -1,0 +1,177 @@
+{
+  "uuid": "7c259c0127313dcb4af5f81bea0796f9",
+  "path": "Offline/CANViaRJ45AdapterBoard",
+  "name": "CANViaRJ45AdapterBoard",
+  "content": "This board allows for CAN signals as well as a small amount of 12V power to be sent through a RJ45 connector.",
+  "created_at": "2023-11-26 20:14:58",
+  "updated_at": "2023-12-05 11:20:10",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "3efdc1cbbff49db55f3c47daffd10aa8",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "673252a8f0ba41f0a67bea610117887c": 3,
+        "174fc9d3f6c85723c8c5def63b722ca6": 1,
+        "26cfe5e5a84f4bd2a482a4029c8756d7": 2,
+        "1f7f5ce558d1413d836cbe02a99eb924": 2,
+        "dbb845acda9d47cdb85678940daa282b": 1,
+        "add53755ee7c40a3a822302b4cabd9c5": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000uF",
+          1,
+          "CAP-TH_BD8.0-P3.50-D0.6-FD",
+          "C1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C190874",
+            "Manufacturer": "HUAWEI(华威集团)",
+            "Manufacturer Part": "GF1C102MF160A00CV0",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C190874&%26type=1&ref=editor",
+            "spiceSymbolName": "GF1C102MF160A00CV0",
+            "puuid": "90d1b58a2d284d63b5d026a0c4e38bab",
+            "uuid": "dbb845acda9d47cdb85678940daa282b"
+          }
+        ],
+        [
+          "XY111B-5.08-2P",
+          3,
+          "CONN-TH_XY111B-5.08-2P",
+          "CN1,CN2,CN3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C784924",
+            "Manufacturer": "XINLAIYA(新莱亚)",
+            "Manufacturer Part": "XY111B-5.08-2P",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C784924&%26type=1&ref=editor",
+            "spiceSymbolName": "XY111B-5.08-2P",
+            "puuid": "b47a26ee84b64551a3fd8f9f85dcf2da",
+            "uuid": "673252a8f0ba41f0a67bea610117887c"
+          }
+        ],
+        [
+          "KF243A-5.0-4P",
+          2,
+          "CONN-TH_4P-P5.00_KF243A-5.0-4P",
+          "CN4,CN5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C475214",
+            "Manufacturer": "KEFA(科发)",
+            "Manufacturer Part": "KF243A-5.0-4P",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C475214&%26type=1&ref=editor",
+            "spiceSymbolName": "KF243A-5.0-4P",
+            "puuid": "4dac02c73573494e8d9d78922b99acfc",
+            "uuid": "26cfe5e5a84f4bd2a482a4029c8756d7"
+          }
+        ],
+        [
+          "0805G (Green)",
+          1,
+          "LED0805-R-RD",
+          "LED1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "KENTO",
+            "Manufacturer Part": "KT-0805翠绿",
+            "Supplier Part": "C2297",
+            "JLCPCB Part Class": "Basic Part",
+            "link": "https://lcsc.com/eda_search?q=C2297&%26type=1&ref=editor",
+            "spiceSymbolName": "0805G (Green)",
+            "puuid": "82605a93a0be4c79a27d82f67f2aca29",
+            "uuid": "174fc9d3f6c85723c8c5def63b722ca6"
+          }
+        ],
+        [
+          "KH-RJ45-58-8P8C",
+          2,
+          "RJ45-TH_KH-RJ45-58-8P8C",
+          "RJ1,RJ2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2683360",
+            "Manufacturer": "kinghelm(金航标)",
+            "Manufacturer Part": "KH-RJ45-58-8P8C",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C2683360&%26type=1&ref=editor",
+            "spiceSymbolName": "KH-RJ45-58-8P8C",
+            "puuid": "4addca61805848d1897c7a59517b13d5",
+            "uuid": "1f7f5ce558d1413d836cbe02a99eb924"
+          }
+        ],
+        [
+          "600Ω",
+          1,
+          "RES-TH_BD4.5-L11.0-P15.00-D0.7",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C601838",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "MO1W-600Ω±5%-6T63",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C601838&%26type=1&ref=editor",
+            "spiceSymbolName": "MO1W-600Ω±5%-6T63",
+            "puuid": "86743c5ba9ba4adc92807ca486640f95",
+            "uuid": "add53755ee7c40a3a822302b4cabd9c5"
+          }
+        ]
+      ],
+      "updateTime": 1701804010,
+      "createTime": 1701058500,
+      "histories": [],
+      "created_at": "2023-11-26 20:15:00",
+      "updated_at": "2023-12-05 11:20:10"
+    },
+    {
+      "uuid": "f8d4134b1a438f7ad7a2fc1f018b0461",
+      "puuid": "7c259c0127313dcb4af5f81bea0796f9",
+      "title": "PCB_CANAdapterBoard",
+      "filename": "PCB_CANAdapterBoard.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "86743c5ba9ba4adc92807ca486640f95": 1,
+        "90d1b58a2d284d63b5d026a0c4e38bab": 1,
+        "4addca61805848d1897c7a59517b13d5": 2,
+        "b47a26ee84b64551a3fd8f9f85dcf2da": 3,
+        "4dac02c73573494e8d9d78922b99acfc": 2,
+        "82605a93a0be4c79a27d82f67f2aca29": 1
+      },
+      "BOM": [],
+      "updateTime": 1701784502,
+      "createTime": 1701767701,
+      "histories": [],
+      "created_at": "2023-12-05 01:15:01",
+      "updated_at": "2023-12-05 05:55:02"
+    }
+  ],
+  "sort": [],
+  "title": "CANViaRJ45AdapterBoard",
+  "foldername": "CANViaRJ45AdapterBoard",
+  "schfilename": "CANViaRJ45AdapterBoard.json",
+  "schfilemtime": 1701804010910
+}
