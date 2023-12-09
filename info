@@ -4,7 +4,7 @@
   "name": "CANViaRJ45AdapterBoard",
   "content": "This board allows for CAN signals as well as a small amount of 12V power to be sent through a RJ45 connector.",
   "created_at": "2023-11-26 20:14:58",
-  "updated_at": "2023-12-05 11:20:10",
+  "updated_at": "2023-12-06 22:47:47",
   "stick": "",
   "documents": [
     {
@@ -16,11 +16,11 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "673252a8f0ba41f0a67bea610117887c": 3,
-        "174fc9d3f6c85723c8c5def63b722ca6": 1,
         "26cfe5e5a84f4bd2a482a4029c8756d7": 2,
-        "1f7f5ce558d1413d836cbe02a99eb924": 2,
         "dbb845acda9d47cdb85678940daa282b": 1,
-        "add53755ee7c40a3a822302b4cabd9c5": 1
+        "add53755ee7c40a3a822302b4cabd9c5": 1,
+        "0e9449745aec4cd4849f409424f9af35": 1,
+        "e744cc2efff84a94a34b0fd0cecbcd47": 2
       },
       "BOM": [
         [
@@ -44,6 +44,7 @@
             "JLCPCB Part Class": "Extended Part",
             "link": "https://lcsc.com/eda_search?q=C190874&%26type=1&ref=editor",
             "spiceSymbolName": "GF1C102MF160A00CV0",
+            "Package Display": "No",
             "puuid": "90d1b58a2d284d63b5d026a0c4e38bab",
             "uuid": "dbb845acda9d47cdb85678940daa282b"
           }
@@ -85,38 +86,39 @@
           }
         ],
         [
-          "0805G (Green)",
+          "HL-503H3GD",
           1,
-          "LED0805-R-RD",
-          "LED1",
+          "LED-TH_BD5.0-P2.54-FD",
+          "LED2",
           {
+            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Manufacturer": "KENTO",
-            "Manufacturer Part": "KT-0805翠绿",
-            "Supplier Part": "C2297",
-            "JLCPCB Part Class": "Basic Part",
-            "link": "https://lcsc.com/eda_search?q=C2297&%26type=1&ref=editor",
-            "spiceSymbolName": "0805G (Green)",
-            "puuid": "82605a93a0be4c79a27d82f67f2aca29",
-            "uuid": "174fc9d3f6c85723c8c5def63b722ca6"
+            "Supplier Part": "C568941",
+            "Manufacturer": "HONGLITRONIC(鸿利光电)",
+            "Manufacturer Part": "HL-503H3GD",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C568941&%26type=1&ref=editor",
+            "spiceSymbolName": "HL-503H3GD",
+            "puuid": "06b5cd08f3384a54acbf965c7106184b",
+            "uuid": "0e9449745aec4cd4849f409424f9af35"
           }
         ],
         [
-          "KH-RJ45-58-8P8C",
+          "5555141-1",
           2,
-          "RJ45-TH_KH-RJ45-58-8P8C",
+          "RJ45-TH_5555141-1",
           "RJ1,RJ2",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C2683360",
-            "Manufacturer": "kinghelm(金航标)",
-            "Manufacturer Part": "KH-RJ45-58-8P8C",
+            "Supplier Part": "C125071",
+            "Manufacturer": "TE Connectivity(美国泰科)",
+            "Manufacturer Part": "5555141-1",
             "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C2683360&%26type=1&ref=editor",
-            "spiceSymbolName": "KH-RJ45-58-8P8C",
-            "puuid": "4addca61805848d1897c7a59517b13d5",
-            "uuid": "1f7f5ce558d1413d836cbe02a99eb924"
+            "link": "https://lcsc.com/eda_search?q=C125071&%26type=1&ref=editor",
+            "spiceSymbolName": "5555141-1",
+            "puuid": "fa2420466d1348a7928b7fff4ea63f35",
+            "uuid": "e744cc2efff84a94a34b0fd0cecbcd47"
           }
         ],
         [
@@ -138,11 +140,11 @@
           }
         ]
       ],
-      "updateTime": 1701804010,
+      "updateTime": 1701930765,
       "createTime": 1701058500,
       "histories": [],
       "created_at": "2023-11-26 20:15:00",
-      "updated_at": "2023-12-05 11:20:10"
+      "updated_at": "2023-12-06 22:32:45"
     },
     {
       "uuid": "f8d4134b1a438f7ad7a2fc1f018b0461",
@@ -154,24 +156,24 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "fa2420466d1348a7928b7fff4ea63f35": 2,
+        "06b5cd08f3384a54acbf965c7106184b": 1,
         "86743c5ba9ba4adc92807ca486640f95": 1,
         "90d1b58a2d284d63b5d026a0c4e38bab": 1,
-        "4addca61805848d1897c7a59517b13d5": 2,
         "b47a26ee84b64551a3fd8f9f85dcf2da": 3,
-        "4dac02c73573494e8d9d78922b99acfc": 2,
-        "82605a93a0be4c79a27d82f67f2aca29": 1
+        "4dac02c73573494e8d9d78922b99acfc": 2
       },
       "BOM": [],
-      "updateTime": 1701784502,
+      "updateTime": 1701931667,
       "createTime": 1701767701,
       "histories": [],
       "created_at": "2023-12-05 01:15:01",
-      "updated_at": "2023-12-05 05:55:02"
+      "updated_at": "2023-12-06 22:47:47"
     }
   ],
   "sort": [],
   "title": "CANViaRJ45AdapterBoard",
   "foldername": "CANViaRJ45AdapterBoard",
   "schfilename": "CANViaRJ45AdapterBoard.json",
-  "schfilemtime": 1701804010910
+  "schfilemtime": 1701930765625
 }
